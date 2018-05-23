@@ -5,7 +5,7 @@ const app = express();
 const fs = require("fs");
 const path = require("path");
 
-app.engine("verge", (path, options, next) => {
+app.engine("tpl", (path, options, next) => {
     fs.readFile(path, (error, data) => {
         if (error) {
             return next(null, error);
@@ -21,7 +21,7 @@ app.engine("verge", (path, options, next) => {
 });
 
 app.set("views", "./public");
-app.set("view engine", "verge");
+app.set("view engine", "tpl");
 
 app.use("/", express.static(path.join(__dirname, "static")));
 app.get("/", (req, res) => {
