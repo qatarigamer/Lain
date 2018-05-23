@@ -25,7 +25,7 @@ app.set("view engine", "verge");
 
 app.use("/", express.static(path.join(__dirname, "static")));
 app.get("/", (req, res) => {
-    res.render("base", {
+    res.render("base.tpl", {
         title: "Home page"
     })
 });
