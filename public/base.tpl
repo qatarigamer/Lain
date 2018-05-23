@@ -12,9 +12,9 @@
         <div class="navbar">
             <div class="link">
                 <ul>
-                    <li {!selected?home}>Home</li>
-                    <li {!selected?leaderboards}>Leaderboards</li>
-                    <li {!selected?info}>Info</li>
+                    <li {!selected?home:class(active)}>Home</li>
+                    <li {!selected?leaderboards:class(active)}>Leaderboards</li>
+                    <li {!selected?info:class(active)}>Info</li>
                 </ul>
             </div>
             <div class="search">
