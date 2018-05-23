@@ -5,17 +5,18 @@ const app = express();
 const fs = require("fs");
 const path = require("path");
 
+
+
 app.engine("tpl", (path, options, next) => {
     fs.readFile(path, (error, data) => {
         if (error) {
             return next(null, error);
         } else {
             data = data.toString().substr(0, data.indexOf("<script"));
-
-            let regex = new RegExp(/\{.+?\}/g);
-            let match = regex.test(data.toString());
+            let match = data.toString().match(/\{.+?\}/g);
 
             console.log(match);
+            return callback(null, data.toString());
         }
     });
 });
