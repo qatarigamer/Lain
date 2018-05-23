@@ -10,7 +10,7 @@ app.engine("tpl", (path, options, next) => {
         if (error) {
             return next(null, error);
         } else {
-            data = data.substr(0, data.indexOf("<script"));
+            data = data.toString().substr(0, data.indexOf("<script"));
 
             let regex = new RegExp(/\{.+?\}/g);
             let match = regex.match(data);
