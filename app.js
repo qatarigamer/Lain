@@ -16,7 +16,7 @@ app.engine("tpl", (path, options, next) => {
             let match = data.toString().match(/\{.+?\}/g);
 
             console.log(match);
-            return callback(null, data.toString());
+            return next(null, data.toString());
         }
     });
 });
