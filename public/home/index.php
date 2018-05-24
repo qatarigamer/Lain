@@ -12,7 +12,7 @@
         </div>
         <br>
         <div class="content">
-            coming soon
+            <img src="https://verge.moe/assets/images/verge.png">
         </div>
     </div>
 </body>
