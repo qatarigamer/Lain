@@ -13,6 +13,7 @@
         <br>
         <div class="content">
             <img src="https://verge.moe/assets/images/verge.png" width="600px" height="350px">
+            <h1> Welcome to Verge! </h1>
         </div>
     </div>
 </body>
