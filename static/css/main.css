@@ -10,6 +10,7 @@
 body {
     background-image: url(http://verge.moe/assets/images/dark-triangles.png) !important;
     background: linear-gradient(#eeeeee,#d6d6d6 75%,#d6d6d6);
+    background-attachment: fixed;
 }
 
 .navbar {

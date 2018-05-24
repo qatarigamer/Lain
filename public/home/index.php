@@ -12,7 +12,7 @@
         </div>
         <br>
         <div class="content">
-            <img src="https://verge.moe/assets/images/verge.png" width="300px" height="150px">
+            <img src="https://verge.moe/assets/images/verge.png" width="600px" height="350px">
         </div>
     </div>
 </body>
