@@ -10,6 +10,7 @@
         <div class="navbar">
             <img src="/assets/images/logo.png"/>
         </div>
+        <br>
         <div class="content">
             coming soon
         </div>
