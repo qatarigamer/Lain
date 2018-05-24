@@ -19,12 +19,11 @@ body {
 }
 
 .content {
-    left: 20px;
-    right:20px;
+    left: 50px;
+    right:50px;
     width: 99%;
     padding-bottom: 15px;
     background-image: url(http://verge.moe/assets/images/light-triangles.png) !important;
-    border-radius: 12px !important;
     float: left;
 
 }
