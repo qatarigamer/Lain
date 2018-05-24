@@ -17,3 +17,12 @@ body {
     height: 90px;
     background: linear-gradient(rgba(68,17,136,.9),#418 75%,#418);
 }
+
+.content {
+    width: 99%;
+    padding-bottom: 15px;
+    background-image: url(./assets/images/light-triangles.png) !important;
+    border-radius: 12px !important;
+    float: left;
+
+}

@@ -8,10 +8,10 @@
 <body>
     <div class="container">
         <div class="navbar">
-            
+            <img src="/assets/images/logo.png"/>
         </div>
         <div class="content">
-
+            coming soon
         </div>
     </div>
 </body>
