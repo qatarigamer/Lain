@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <img src="/assets/images/logo.png"/>
+            <img src="/assets/images/text-black.png"/>
         </div>
         <br>
         <div class="content">
