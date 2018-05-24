@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: gray;
+}
+
+.navbar div {
+    display: block;
+    float: left;
+}
+
+.navbar div.left {
+    float: left;
+}
+
+.navbar div.right {
+    float: right;
+}
+
+.navbar .links ul li.active {
+    color: red;
+}
