@@ -19,9 +19,11 @@ body {
 }
 
 .content {
-    position: center;
-    left: 100px;
-    right: 100px;
-    padding-bottom: 15px;
+    position: absolute;
+    width: 80%;
+    max-width: 1000px;
+    left: 50%;
+    top: 86px;
+    transform: translateX(-50%);
     background-image: url(http://verge.moe/assets/images/light-triangles.png) !important;
 }
