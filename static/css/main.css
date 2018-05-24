@@ -21,6 +21,8 @@ body {
 .content {
     position: absolute;
     width: 80%;
+    text-align: center;
+    padding: 8px;
     max-width: 1000px;
     left: 50%;
     top: 86px;
