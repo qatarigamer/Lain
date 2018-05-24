@@ -9,6 +9,8 @@
     <div class="container">
         <div class="navbar">
             <a href="https://verge.moe"><img src="/assets/images/text-black.png"/></a>
+            <a href="https://verge.moe/leaderboard">Leaderboard</a>
+            <a href="https://verge.moe/info">Info</a>            
         </div>
         <br>
         <div class="content">
