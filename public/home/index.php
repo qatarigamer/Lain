@@ -8,7 +8,7 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <img src="/assets/images/text-black.png"/>
+            <a href="https://verge.moe"><img src="/assets/images/text-black.png"/></a>
         </div>
         <br>
         <div class="content">
