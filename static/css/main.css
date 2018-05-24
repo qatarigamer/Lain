@@ -21,7 +21,7 @@ body {
 .content {
     width: 99%;
     padding-bottom: 15px;
-    background-image: url(./assets/images/light-triangles.png) !important;
+    background-image: url(http://verge.moe/assets/images/light-triangles.png) !important;
     border-radius: 12px !important;
     float: left;
 
