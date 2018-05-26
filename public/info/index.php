@@ -7,11 +7,14 @@
 
 <body>
     <div class="container">
-        <div class="navbar">
-            
+    <div class="navbar">
+            <a href="https://verge.moe"><p class="navName">Verge</p></a>    
+            <a href="https://verge.moe/leaderboard"><p class="navItems">Leaderboard</p></a>
+            <a href="https://verge.moe/info"><p class="navItems">Info</p></a>            
         </div>
+        <br><br>
         <div class="content">
-
+            welcome to verge lol
         </div>
     </div>
 </body>

@@ -96,14 +96,17 @@ body {
     width: 15%;
     float: left;
     max-width:250px;
+    box-sizing: border-box;
     text-align: left;
     margin: 15px; 
 }
 
 .explained {
+    box-sizing: border-box;
     max-width:250px;
 }
 
 .whatAreYouWaitingFor {
+    box-sizing: border-box;
     max-width:250px;
 }
