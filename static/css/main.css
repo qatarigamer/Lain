@@ -8,25 +8,102 @@
 }
 
 body {
-    background-image: url(http://verge.moe/assets/images/dark-triangles.png) !important;
     background: linear-gradient(#eeeeee,#d6d6d6 75%,#d6d6d6);
     background-attachment: fixed;
+}
+
+.navName {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #727272;
+}
+
+.navName:hover {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #f8f8f8;
+}
+
+.navItems {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #e4e1e1;
+}
+
+.navItems:hover {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #f8f8f8;
 }
 
 .navbar {
     width: 100%;
     height: 50px;
-    background: linear-gradient(rgba(68,17,136,.9),#418 75%,#418);
+    background: black;
 }
 
-.content {
-    position: absolute;
-    width: 80%;
-    text-align: center;
-    padding: 8px;
-    max-width: 1000px;
-    left: 50%;
-    top: 86px;
-    transform: translateX(-50%);
-    background-image: url(http://verge.moe/assets/images/light-triangles.png) !important;
+
+.welcome {
+    font-size:25px;
+    margin: 15px;
+}
+.welcomeTxt {
+    font-size: 15px;
+    text-decoration: none;
+
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #4183C4;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: #4183C4;
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: #4183C4;
+    }
+    
+    a:active {
+        text-decoration: none;
+        color: #4183C4;
+    }
+.homeWrapper {
+    display: flex;
+}
+
+.homeWrapper > div {
+    flex: 1;
+}
+
+.safety {
+    width: 15%;
+    float: left;
+    max-width:250px;
+    text-align: left;
+    margin: 15px; 
+}
+
+.explained {
+    max-width:250px;
+}
+
+.whatAreYouWaitingFor {
+    max-width:250px;
 }
