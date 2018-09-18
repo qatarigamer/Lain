@@ -9,7 +9,7 @@ beatmaps being directly downloaded from our mirror.
 
 **Why replace Hayano?**
 
-Hayano is made to be a one-size-fits-all. With somr of the ideas floating around internally, we decided to rewrite the 
+Hayano is made to be a one-size-fits-all. With some of the ideas floating around internally, we decided to rewrite the 
 codebase to better suit us and certain other servers, with a modern design refresh. (Hayano looks too plain for me) 
 
 ### Requirements
